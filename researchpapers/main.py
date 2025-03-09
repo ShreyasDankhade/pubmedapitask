@@ -1,6 +1,6 @@
 import argparse
-from pubmedapi import fetch_pubmed_ids, fetch_summary_details
-from data_processing import process_author_details, save_to_csv
+from researchpapers.pubmedapi import fetch_pubmed_ids, fetch_summary_details
+from researchpapers.data_processing import process_author_details, save_to_csv
 
 def main():
     # Hardcoded API key

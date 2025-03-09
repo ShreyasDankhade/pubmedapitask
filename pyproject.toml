@@ -1,24 +1,26 @@
-[tool.poetry]
+[project]
 name = "researchpapers"
-version = "1.0.0"  # Project's version
-description = "A tool to fetch and process data from PubMed."
+version = "0.1.0"
+description = ""
 authors = [
-    "Shreyas Dankhade <you@example.com>"
+    {name = "Shreyas"}
 ]
 readme = "README.md"
-license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "xmltodict (>=0.14.2,<0.15.0)"
+]
 
-[tool.poetry.dependencies]
-python = "^3.8"
-pandas = "1.5.3"  # Updated to specific version
-requests = "2.28.1"  # Updated to specific version
+[tool.poetry]
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^6.2.5"
+pytest = "^8.3.5"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-getpaperslist = "researchpapers.mainfunction:main"
+get-papers-list = "researchpapers.main:main"
