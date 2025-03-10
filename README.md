@@ -141,7 +141,7 @@ This project is licensed under the **MIT License**.
 ---
 
 ## **📧 Contact**
-For questions or support, contact **[Your Name]** at **your.email@example.com**.
+For questions or support, contact **Shreyas Dankhade** at **shreyasdankhade75@gmail.com**.
 
 ---
 
