@@ -45,6 +45,11 @@ pip install poetry
 poetry install
 ```
 
+### **4️⃣ Install Required Modules**
+Before running the project, ensure all dependencies are installed:
+```bash
+pip install -r requirements.txt
+```
 
 
 ## **🚀 Usage**
@@ -70,14 +75,14 @@ poetry run get-papers-list "genetic engineering" -d
 ## **🔧 Command-Line Arguments**
 | Option | Description |
 |--------|-------------|
-| `query` | **(Required)** Search term for fetching research papers |
-| `-f`, `--file` | Specify filename to save results as a CSV |
-| `-d`, `--debug` | Enable debug mode for detailed logs |
+| query | **(Required)** Search term for fetching research papers |
+| -f, --file | Specify filename to save results as a CSV |
+| -d, --debug | Enable debug mode for detailed logs |
 
 ---
 
 ## **⚙️ Running Inside Poetry Shell**
-If `poetry run` doesn't work, enter the **Poetry virtual environment** first:
+If poetry run doesn't work, enter the **Poetry virtual environment** first:
 ```bash
 poetry shell
 get-papers-list "cancer immunotherapy" -f output.csv
@@ -133,8 +138,6 @@ poetry run python researchpapers/main.py "cancer research"
 
 ---
 
-
-
 ## **📜 License**
 This project is licensed under the **MIT License**.
 
@@ -144,4 +147,3 @@ This project is licensed under the **MIT License**.
 For questions or support, contact **Shreyas Dankhade** at **shreyasdankhade75@gmail.com**.
 
 ---
-
