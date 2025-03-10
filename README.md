@@ -31,7 +31,7 @@ pubmedapitask/
 ## **🛠 Installation & Setup**
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/pubmedapitask.git
+git clone https://github.com/ShreyasDankhade/pubmedapitask.git
 cd pubmedapitask
 ```
 
@@ -45,20 +45,7 @@ pip install poetry
 poetry install
 ```
 
-### **4️⃣ Setup Environment Variables**
-Create a `.env` file in the root directory and add your **PubMed API Key**:
-```ini
-API_KEY=your_pubmed_api_key_here
-```
 
-Or, export it manually in your terminal:
-```bash
-export API_KEY="your_pubmed_api_key_here"  # Linux/Mac
-set API_KEY="your_pubmed_api_key_here"     # Windows (CMD)
-$env:API_KEY="your_pubmed_api_key_here"    # Windows (PowerShell)
-```
-
----
 
 ## **🚀 Usage**
 Run the script via **Poetry**:
