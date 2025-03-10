@@ -116,10 +116,7 @@ poetry install
 poetry run get-papers-list "cancer research"
 ```
 
-### **2️⃣ "No API Key Found"**
-Ensure the **API_KEY** is set in `.env` or exported in the terminal.
-
-### **3️⃣ "get-papers-list: command not found"**
+### **2️⃣ "get-papers-list: command not found"**
 Manually run the script:
 ```bash
 poetry run python researchpapers/main.py "cancer research"
@@ -136,14 +133,7 @@ poetry run python researchpapers/main.py "cancer research"
 
 ---
 
-## **🌟 Contributing**
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature-name`)
-3. Commit changes (`git commit -m "Added feature X"`)
-4. Push to GitHub (`git push origin feature-name`)
-5. Submit a Pull Request 🚀
 
----
 
 ## **📜 License**
 This project is licensed under the **MIT License**.
