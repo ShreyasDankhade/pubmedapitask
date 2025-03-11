@@ -138,11 +138,6 @@ poetry run python researchpapers/main.py "cancer research"
 
 ---
 
-## **📜 License**
-This project is licensed under the **MIT License**.
-
----
-
 ## **📧 Contact**
 For questions or support, contact **Shreyas Dankhade** at **shreyasdankhade75@gmail.com**.
 
